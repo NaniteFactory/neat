@@ -1,7 +1,4 @@
-![alt text](https://github.com/jinyeom/neat/blob/master/banner.png "neat")
-[![GoDoc](https://godoc.org/github.com/jinyeom/neat?status.svg)](https://godoc.org/github.com/jinyeom/neat)
-[![Go Report Card](https://goreportcard.com/badge/github.com/jinyeom/neat)](https://goreportcard.com/report/github.com/jinyeom/neat)
-[![cover.run go](https://cover.run/go/github.com/jinyeom/neat.svg)](https://cover.run/go/github.com/jinyeom/neat)
+# NEAT
 
 NEAT (NeuroEvolution of Augmenting Topologies) is a neuroevolution algorithm by 
 Dr. Kenneth O. Stanley which evolves not only neural networks' weights but also their 
@@ -13,7 +10,7 @@ paper from [here](http://nn.cs.utexas.edu/downloads/papers/stanley.ec02.pdf).
 To install `neat` run the following:
 
 ```bash
-$ go get -u github.com/jinyeom/neat
+$ go get -u github.com/nanitefactory/neat
 ```
 
 ## Usage
@@ -60,7 +57,7 @@ import (
 
 	// Import NEAT package after installing the package through
 	// the instruction provided above.
-	"github.com/jinyeom/neat"
+	"github.com/nanitefactory/neat"
 )
 
 func main() {
